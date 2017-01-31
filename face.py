@@ -104,7 +104,7 @@ def predict():
             print(np.argmax(bincounts))
 
 if train:
-    train()
+    train(train_id)
 else:
     predict()
 
